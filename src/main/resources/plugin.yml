@@ -1,0 +1,15 @@
+name: Sirisuk_LobbyPVP
+version: '${project.version}'
+main: com.sirisuk.sk_lobbypvp.Main
+api-version: 1.18
+prefix: LobbyPVP
+authors: [ Sirisuk_Tharntham ]
+description: A sword that players can PvP each other with in the Lobby!
+commands:
+  pvp:
+    description: Lobby core command.
+    permission: hubpvp.reload
+permissions:
+  hubpvp.use:
+    description: Use the Lobby sword.
+    default: true

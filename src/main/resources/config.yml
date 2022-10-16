@@ -1,0 +1,34 @@
+# HubPvP by Quared, v1.1.1
+# Have an issue? Report it on our Spigot page!
+
+# Sword slot inside the player's inventory
+slot: 9
+
+# PvP sword name
+name: '&6[&r&c&lCherry Sword&r&6]'
+
+# Change the cooldown when enabling/disabling PvP (seconds). Set to -1 to disable.
+enable-cooldown: 3
+disable-cooldown: -1
+
+# Messages
+pvp-enabled-message: '&9Lobby> &7PVP &aenabled!'
+pvp-enabling-message: '&9Lobby> &7PVP enabling in &e%time% &7second(s).'
+pvp-disabled-message: '&9Lobby> &7PVP &cdisabled!'
+pvp-disabling-message: '&9Lobby> &7PVP disabling in &e%time% &7second(s).'
+reload-message: '&9Lobby> &aSuccessfully &7reloaded Lobby PVP system.'
+
+killed-message: '&9Lobby> &c%killer% &7has killed you.'
+killed-other-message: '&9Lobby> &7You have &ckilled &7player &e%killed%.'
+
+# Choose whether or not they are put back to spawn when they have been killed
+# This is only this plugin's respawns
+respawn-at-spawn: true
+
+# How much health is regained on kill, this is in HP, not hearts. Set to -1 to disable
+health-on-kill: 4
+health-gained-message: '&9Lobby> &7You killed &c%killed% &7and gained &a+%extra% &7health!'
+
+# Disabled worlds
+disabled-worlds:
+  - world_nopvp
